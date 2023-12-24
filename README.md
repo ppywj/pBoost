@@ -6,14 +6,16 @@ a A lightweight third-party CPP library
 
 
 ## pThreadPool
-一个基于c++11的轻量级线程池库,支持两种模式fixed模式（固定线程数量），cached模式（动态线程数量），命名控件均为pstd
+
+一个基于c++11的轻量级线程池库,支持两种模式fixed模式（固定线程数量），cached模式（动态线程数量），命名空间均为pstd。
+
 包括类：
-Any(Base Drive 两个内部类）:上帝类，类似于java种的OBject是所有数据类型的基类
-Thread:线程类
-PThreadPool：线程池类
-Task:任务类
-Result：结果类，用于保存线程执行结果
-Semaphonre：信号量类，基于互斥锁和条件变量实现
+Any(Base Drive 两个内部类）:上帝类，类似于java种的OBject是所有数据类型的基类；
+Thread:线程类；
+PThreadPool：线程池类；
+Task:任务类；
+Result：结果类，用于保存线程执行结果；
+Semaphonre：信号量类，基于互斥锁和条件变量实现；
 
 use example:
 ```cpp
